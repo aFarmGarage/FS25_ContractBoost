@@ -69,7 +69,7 @@ function SettingsManager.new()
     self.loadedConfig = {}
 
     -- xmlConfigFiles
-    self.modSettingsConfigFile = "modSettings/`xml"
+    self.modSettingsConfigFile = "modSettings/xml"
     self.savegameConfigFile = MOD_NAME..".xml"
 
     if self.loadDebug then Logging.info(MOD_NAME..":MANAGER initialized") end
